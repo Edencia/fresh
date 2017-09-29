@@ -61,7 +61,7 @@ func start() {
 					buildFailed = true
 					mainLog("Build Failed: \n %s", errorMessage)
 					if !started {
-						os.Exit(1)
+						//os.Exit(1)
 					}
 					createBuildErrorsLog(errorMessage)
 				}
